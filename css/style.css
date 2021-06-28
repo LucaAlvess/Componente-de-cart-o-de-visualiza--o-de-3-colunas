@@ -158,6 +158,8 @@ body {
     font-weight: 500;
 
     color: var(--Bright-orange);
+
+    transition: .5s;
 }
 
 #bt-suvs {
@@ -174,6 +176,8 @@ body {
     font-family: 'Lexend Deca';
     font-weight: 500;
     color: var(--Dark-cyan);
+
+    transition: .5s;
 }
 
 #bt-luxury {
@@ -190,6 +194,24 @@ body {
     font-family: 'Lexend Deca';
     font-weight: 500;
     color: var(--Very-dark-cyan);
+
+    transition: .5s;
+}
+
+#bt-sedans:hover {
+    background-color: var(--Bright-orange);
+    border: white 1px solid;
+    color: var(--Very-light-gray);
+}
+#bt-suvs:hover {
+    background-color: var(--Dark-cyan);
+    border: white 1px solid;
+    color: var(--Very-light-gray);
+}
+#bt-luxury:hover {
+    background-color: var(--Very-dark-cyan);
+    border: white 1px solid;
+    color: var(--Very-light-gray);
 }
 
 /*Quarries*/
